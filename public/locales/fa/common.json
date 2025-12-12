@@ -2,5 +2,6 @@
     "hello": "سلام دنیا",
     "welcome": "به برنامه هواشناسی خوش آمدید",
     "SearchCities" : "جستجو شهر",
-    "7_DayForecast" : "پیش بینی 7 روزه"
+    "7_DayForecast" : "پیش بینی 7 روزه",
+    "TodayForecast" : "پیش بینی امروز"
 }
