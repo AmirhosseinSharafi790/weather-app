@@ -7,10 +7,10 @@ import TodayForecast from "@/components/TodayForecast/TodayForecast";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-800 p-2 md:p-4">
+    <div className="min-h-screen bg-gray-800 p-1 md:p-2">
       <Header />
-      <div className="flex flex-col md:flex-row gap-4">
-        <div className="w-full md:w-4/6 p-6">
+      <div className="flex flex-col md:flex-row gap-2">
+        <div className="w-full md:w-4/6 p-1.5">
           <GeneralWeather />
           <TodayForecast />
           <AirCondition />
