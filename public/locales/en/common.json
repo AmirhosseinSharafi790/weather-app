@@ -3,5 +3,6 @@
     "welcome": "Welcome to Weather App",
     "SearchCities" : "Search For Cities",
     "7_DayForecast" : "7 DAY FORECAST",
-    "TodayForecast" : "Today Forecast"
+    "TodayForecast" : "Today Forecast",
+    "AirCondition" : "Air Condition"
 }

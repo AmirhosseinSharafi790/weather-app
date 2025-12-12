@@ -3,5 +3,6 @@
     "welcome": "مرحبا بك في تطبيق الطقس",
     "SearchCities" : "بحث المدينة",
     "7_DayForecast" : "توقعات لمدة 7 أيام",
-    "TodayForecast" : "توقعات اليوم"
+    "TodayForecast" : "توقعات اليوم",
+    "AirCondition" : "المكيفات"
 }
