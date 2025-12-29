@@ -4,5 +4,24 @@
     "SearchCities" : "بحث المدينة",
     "7_DayForecast" : "توقعات لمدة 7 أيام",
     "TodayForecast" : "توقعات اليوم",
-    "AirCondition" : "المكيفات"
+    "AirCondition" : "المكيفات",
+    "RealFeel" : "درجة الحرارة الحالية",
+    "Wind" : "الرياح",
+    "Humidity" : "الرطوبة",
+    "Rain" : "كمية الأمطار",
+    "weather": {
+        "sunny": "مشمس",
+        "partly_cloudy": "غائم جزئياً",
+        "cloudy": "غائم",
+        "fog": "ضباب",
+        "drizzle": "رذاذ",
+        "rainy": "ممطر",
+        "snowy": "مثلج",
+        "showers": "زخات",
+        "thunderstorm": "عاصفة رعدية",
+        "unknown": "غير معروف"
+    },
+    "loading":  "تلقي المعلومات",
+    "error":  "لم يتم العثور على المدينة المعنية",
+    "ErrorOccurring" : "كان هناك خطأ في إيصال البيانات"
 }
