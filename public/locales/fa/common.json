@@ -4,5 +4,24 @@
     "SearchCities" : "جستجو شهر",
     "7_DayForecast" : "پیش بینی 7 روزه",
     "TodayForecast" : "پیش بینی امروز",
-    "AirCondition" : "شرایط آب‌ و هوایی"
+    "AirCondition" : "شرایط آب‌ و هوایی",
+    "RealFeel" : "دمای فعلی",
+    "Wind" : "سرعت باد",
+    "Humidity" : "رطوبت",
+    "Rain" : "مقدار بارش باران",
+    "weather": {
+        "sunny": "آفتابی",
+        "partly_cloudy": "نیمه ابری",
+        "cloudy": "ابری",
+        "fog": "مه‌آلود",
+        "drizzle": "نم‌نم باران",
+        "rainy": "بارانی",
+        "snowy": "برفی",
+        "showers": "رگبار",
+        "thunderstorm": "رعد و برق",
+        "unknown": "نامشخص"
+    },
+    "loading":  "در حال دریافت اطلاعات",
+    "error":  "شهر مورد نظر پیدا نشد",
+    "ErrorOccurring" : "خطایی در دریافت اطلاعات رخ داد"
 }

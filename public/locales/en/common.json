@@ -4,5 +4,24 @@
     "SearchCities" : "Search For Cities",
     "7_DayForecast" : "7 DAY FORECAST",
     "TodayForecast" : "Today Forecast",
-    "AirCondition" : "Air Condition"
+    "AirCondition" : "Air Condition",
+    "RealFeel" : "Real Feel",
+    "Wind" : "Wind",
+    "Humidity" : "Humidity",
+    "Rain" : "Amount of rainfall",
+    "weather": {
+        "sunny": "Sunny",
+        "partly_cloudy": "Partly Cloudy",
+        "cloudy": "Cloudy",
+        "fog": "Fog",
+        "drizzle": "Drizzle",
+        "rainy": "Rainy",
+        "snowy": "Snowy",
+        "showers": "Showers",
+        "thunderstorm": "Thunderstorm",
+        "unknown": "Unknown"
+    },
+    "loading":  "Receiving information",
+    "error":  "The city in question was not found",
+    "ErrorOccurring" : "There was an error in the data receipt"
 }
