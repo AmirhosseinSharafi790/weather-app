@@ -1,18 +1,34 @@
-import { Sun } from "lucide-react";
+import { useTranslation } from "react-i18next"
+import { getWeatherInfo } from "@/utils/weatherCodes"
 
-export default function ForecastItems() {
+interface Props {
+  day: string;
+  min: number;
+  max: number;
+  code: number;
+}
+
+export default function ForecastItems({ day, min, max, code }: Props) {
+    const { t } = useTranslation("common");
+    const { Icon, textKey } = getWeatherInfo(code);
+
     return(
-        <div className="days flex w-full border-b border-gray-500 py-3">
-            <div className="day text-gray-500 flex-1 text-start">
-                Today
-            </div>
-            <div className="flex-1 flex items-center justify-center gap-2">
-            <Sun size={20} color="orange" />
-            Sunny
-            </div>
-            <div className="min_max_weather flex-1 text-end">
-            37<span className="text-gray-500">/42</span>
-            </div>
+      <div className="flex w-full border-b border-gray-500 py-3">
+        <div className="flex-1 text-gray-500">
+          {new Date(day).toLocaleDateString(undefined, {
+            weekday: "long",
+          })}
         </div>
+
+        <div className="flex-1 flex items-center justify-center gap-2">
+          <Icon size={20} className="text-orange-400" />
+          {t(textKey)}
+        </div>
+
+        <div className="flex-1 text-end">
+          {Math.round(min)}
+          <span className="text-gray-500"> / {Math.round(max)}</span>
+        </div>
+      </div>
     )
 }
