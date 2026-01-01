@@ -21,7 +21,7 @@ export default function GeneralWeather({ city, current, country }: Props) {
             {Math.round(current.temperature_2m)}°
           </div>
         </div>
-        <Icon size={90} className="text-orange-400" />
+        {/* <Icon size={90} className="text-orange-400" /> */}
       </div>
     )
 }

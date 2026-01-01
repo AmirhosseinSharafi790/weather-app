@@ -21,7 +21,7 @@ export default function ForecastItems({ day, min, max, code }: Props) {
         </div>
 
         <div className="flex-1 flex items-center justify-center gap-2">
-          <Icon size={20} className="text-orange-400" />
+          {/* <Icon size={20} className="text-orange-400" /> */}
           {t(textKey)}
         </div>
 
