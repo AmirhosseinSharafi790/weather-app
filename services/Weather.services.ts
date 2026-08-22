@@ -1,11 +1,12 @@
 import { GeoLocation, WeatherResponse } from "@/types/Weather";
 
-
 export async function searchCity(
   city: string
 ): Promise<GeoLocation[]> {
+  const encodedCity = encodeURIComponent(city.trim());
+
   const res = await fetch(
-    `https://geocoding-api.open-meteo.com/v1/search?name=${city}&count=5&language=en&format=json`
+    `https://geocoding-api.open-meteo.com/v1/search?name=${encodedCity}&count=5&language=fa&format=json`
   )
 
   if (!res.ok) throw new Error("Failed to fetch city")
